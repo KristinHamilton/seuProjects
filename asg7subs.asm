@@ -1,4 +1,4 @@
-;[KBHsubs.asm]
+;[asg7subs.asm]
 ;Kristin Hamilton
 ;date created: 12-Apr-2014
 ;description: subroutines for asg7/prog7.asm
