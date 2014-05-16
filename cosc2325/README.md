@@ -1,5 +1,5 @@
 cosc2325 Computing Sciences Concepts II.<br />
-Projects completed during the Spring 2014 semester.<br />
+Class projects completed during the Spring 2014 semester.<br />
 
 I have added a .jar (executable) for each of the projects in this course. Please see descriptions given below for each of the labs.<br />
 
