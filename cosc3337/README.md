@@ -1,2 +1,2 @@
 cosc3337 Database Theory.<br />
-Projects completed during the Spring 2014 semester.
+Class projects completed during the Spring 2014 semester.
