@@ -1,0 +1,86 @@
+466
+Gizmo
+Heinz 57 Mutt
+5.3
+9efh  3/9/2011 SanAntonioVetClinic Dr.Fisher
+rabies
+1128  none
+3bvi  4/12/2012 SanAntonioVetClinic Dr.Fisher
+rabies
+1128  lose more weight
+3rop  8/19/2010 SanAntonioVetClinic Dr.Fisher
+Ate dead bird
+medication and rest
+****
+534
+Luis Francisco
+Chihuahua
+5.6
+****
+409
+sport
+dog
+3
+3n4d  3/31/2013  AnimalCareClinic Dr.House
+rabies  parvo
+3432  **No other care **
+****
+893
+fluffy
+cat 
+4.5
+****
+307
+lucy lu
+parrot
+22.5
+29ir  1/23/2014 VetClinicOfAustin Dr.Simon
+"No diagnosis"
+"No treatment"
+****
+764
+smiley
+snake
+2.1
+****
+200
+lewis
+chihuahua
+5.6
+9k3y  5/12/2013  AnimalCareHospital Dr.James
+upset stomach
+rest and light food
+2f34 8/19/2011 PetHospitalofSanDiego Dr.Garza
+rabies
+4433 **No other care**
+****
+934
+maddie
+great pyrenees
+15.1
+7eh8 4/12/2013 VetHospital Dr.House
+vertigo and dizziness
+sleep and bland diet
+****
+904
+tater tot
+big dog
+4.8
+48ec  5/11/2012 AnimalEmergencyCare Dr.Raeburn
+rabies  parvo
+3355  exercise more
+456d  6/10/2014 NewBraufelsPets Dr.Frederickson
+bad colon
+bland diet, medication prescribed
+ ****
+395
+Julie
+Great Dane
+10
+w39r 9/12/2012 SanMarcosVetClinic Dr.Richard
+rabies
+1144  no treatment
+j304 4/15/2013 AustinAnimalHospital Dr.Villareal
+rabies and parvo
+1144  lose weight
+****
