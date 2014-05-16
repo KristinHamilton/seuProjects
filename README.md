@@ -1,4 +1,4 @@
-seuProjects contains class projects and assignments. Each course is represented by a separate branch within this repository.<br />
+seuProjects contains class projects and assignments.<br />
 Below is a summary of this repository and where to find programs written with a given language.<br />
 
 <strong>Courses.</strong><br />
