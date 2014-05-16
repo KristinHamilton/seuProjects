@@ -1,0 +1,104 @@
+
+
+/* Generic Selectors */
+
+body
+	{
+	margin:  0 5%;
+	font-family: segoe ui, corbel, lucida console regular, sans serif;
+	font-size: 1em;  /* default size */
+	color: #111111;  /* text color */
+	background: #222222; /* background color */
+	}
+
+.heading
+	{
+	background:#880000;
+	color: #fffeee; 
+	padding: 1%;
+	margin: 1% 13% .5% 13%;
+	padding: 2%;
+	text-align:center;
+	font-size: 1.3em;
+	}
+
+.headingcontent
+	{
+	color: #000044;
+	}
+
+.content
+	{
+	background: #ffffff;
+	color:#333333;
+	margin: .5% 13% 1% 13%;
+	padding: 2%;
+	overflow:auto;
+	}
+
+.border
+	{ 
+	margin: 2% 2% 2% 2%;
+	border: 2px solid white;
+	padding: 2% 2% 2% 2%;
+	overflow:auto;
+	}
+
+.floatleft
+	{
+	width: 80%;
+	padding:2%;
+	float:left;
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+.footer
+	{
+	background: #880000;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #fffeee;
+	margin: 1% 13% 1% 13%;
+	padding: 2%;
+	text-align: center;
+	}
+
+.errortext
+	{
+	font-family: Arial;
+	background: #ffff11;
+	color: #000077;
+	}
+
+.tips
+	{
+	color: #000000;
+	}
+
+.back2CShome
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #777777;	
+	color: #880000;
+	margin: .5% 13% .5% 13%;
+	padding: .5% 1%;
+	}
+	
+a:link
+	{ 
+	color: #fffeee;
+	}
+
+a:visited
+	{ 
+	color:#fffeee;
+	}
+
+a:hover
+	{
+	background:#fffeee;
+	color:#880000;
+	}
