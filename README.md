@@ -3,10 +3,18 @@ Below is a summary of this repository and where to find programs written with a 
 
 <strong>Courses.</strong><br />
 <ul>
-<li><strong>cosc2325:</strong> Computing Sciences Concepts II</li>
-<li><strong>cosc2328:</strong> Web Programming</li>
-<li><strong>cosc2331:</strong> Introduction to Computer Organization and Architecture</li>
-<li><strong>cosc3337:</strong> Database Theory</li>
+<li><strong>
+  <a href = 'https://github.com/KristinHamilton/seuProjects/tree/master/cosc2325'>
+  cosc2325</a>:</strong> CS Concepts II</li>
+<li><strong>
+  <a href = 'https://github.com/KristinHamilton/seuProjects/tree/master/cosc2328'>
+  cosc2328</a>:</strong> Web Programming</li>
+<li><strong>
+  <a href = 'https://github.com/KristinHamilton/seuProjects/tree/master/cosc2331'>
+  cosc2331</a>:</strong> Introduction to Computer Organization and Architecture</li>
+<li><strong>
+  <a href = 'https://github.com/KristinHamilton/seuProjects/tree/master/cosc3337'>
+  cosc3337</a>:</strong> Database Theory and Applications</li>
 </ul>
 <strong>Languages.</strong><br />
 <ul>
