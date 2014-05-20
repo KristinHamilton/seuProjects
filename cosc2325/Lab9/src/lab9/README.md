@@ -1,4 +1,4 @@
-Lab10:<br />
+Lab9:<br />
 
 <ul>
   <li><a href = 'https://github.com/KristinHamilton/seuProjects/new/master/cosc2325/Lab9/lab9.jar'>
