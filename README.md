@@ -22,5 +22,5 @@ Below is a summary of this repository and where to find programs written with a 
 <li><strong>SQL (MySQL):</strong> cosc2328, cosc3337</li>
 <li><strong>x86 Assembly (NASM):</strong> cosc2331</li>
 <li><strong>C:</strong> cosc2331</li>
-<li><strong>PHP, XHTML, CSS, JavaScript, AJAX:</strong> cosc2328, <a href = 'http://www.cs.stedwards.edu/~khamilt2/cosc2328'> my cosc2328 home page</a></li>
+<li><strong>PHP, XHTML, CSS, JavaScript, AJAX:</strong> cosc2328, <a href = 'http://kristin.create.stedwards.edu/cosc2328/index.php'> my cosc2328 home page</a></li>
 </ul>
