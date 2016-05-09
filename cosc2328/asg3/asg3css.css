@@ -1,0 +1,102 @@
+
+
+/* Generic Selectors */
+
+body
+	{
+	margin:  0 5%;
+	font-family: lettergothicstd, gothic, lucida sans typewriter, georgia;
+	font-size: 1em;  /* default size */
+	color: #000055;  /* text color */
+	background: #555555; /* background color */
+	}
+
+.heading
+	{
+	background:#000077;
+	color: #ffffff; 
+	padding: 1%;
+	margin: 1% 13% .5% 13%;
+	padding: 2%;
+	text-align:center;
+	}
+
+.headingcontent
+	{
+	color: #000077;
+	}
+
+.content
+	{
+	background: #ffffff;
+	color:#aa0022;
+	margin: .5% 13% 1% 13%;
+	padding: 2%;
+	overflow:auto;
+	}
+
+.border
+	{ 
+	margin: 2% 2% 2% 2%;
+	border: 2px solid white;
+	padding: 2% 2% 2% 2%;
+	overflow:auto;
+	}
+
+.floatleft
+	{
+	width: 40%;
+	padding:2%;
+	float:left;
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+.footer
+	{
+	background: #000077;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #ffffff;
+	margin: 1% 13% 1% 13%;
+	padding: 2%;
+	text-align: center;
+	}
+
+.errortext
+	{
+	font-family: Arial;
+	background: #ffff11;
+	color: #000077;
+	}
+
+.tips
+	{
+	color: #000000;
+	}
+
+.back2CShome
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #AA0022;
+	margin: .5% 13% .5% 13%;
+	padding: .5% 1%;
+	}
+
+a:link
+	{ 
+	color: #ffffff;
+	}
+
+a:visited
+	{ 
+	color:#ffffff;
+	}
+
+a:hover
+	{
+	background:#ffffff;
+	color:#000077;
+	}
