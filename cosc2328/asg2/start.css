@@ -1,0 +1,87 @@
+
+
+/* Generic Selectors */
+
+body
+	{
+	margin:  0 5%;
+	font-family: verdana, Georgia, arial, helvetica, sans-serif;
+	font-size: 1em;  /* default size */
+	color: #333333;  /* text color */
+	background: #666633; /* background color */
+	}
+
+.heading
+	{
+    	background:#333333;
+    	color: #fffeee; 
+    	padding: 1%;
+    	margin: 1% 13% .5% 13%;
+    	padding: 2%;
+    	text-align:center;
+    	font-size: 1.2em;
+	}
+	
+.content
+	{
+    	background: #999933;
+    	color:#000033;
+    	margin: .5% 13% 1% 13%;
+    	padding: 2%;
+    	overflow:auto;
+	}
+
+.border
+	{ 
+    	margin: 2% 2% 2% 2%;
+	border: 2px solid white;
+	padding: 2% 2% 2% 2%;
+	overflow:auto;
+	}
+
+.floatleft
+	{
+	width: 40%;
+	padding:2%;
+	float:left;
+	}
+      
+.clear
+	{
+	clear:both;
+	}
+
+.footer
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #333333;
+	color: #fffeee;
+	margin: 1% 13% 1% 13%;
+	padding: 2%;
+ 	text-align: center;
+ 	font-size: .9em;
+	}
+
+.back2CShome
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #FFFEEE;
+	margin: .5% 13% .5% 13%;
+	padding: .5% 1%;
+	}
+
+a:link
+	{ 
+	color: #000077;
+	}
+
+a:visited
+	{ 
+	color:#000077;
+	}
+
+a:hover
+	{
+	background:#CCCCCC;
+	color: #000077;
+	}
