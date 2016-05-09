@@ -1,0 +1,117 @@
+
+
+/* Generic Selectors */
+
+body
+	{
+	margin:  0 5%;
+	font-family: corbel, lucida console regular, sans serif;
+	font-size: 1em;  /* default size */
+	color: #111111;  /* text color */
+	background: #555555; /* background color */
+	}
+
+.heading
+	{
+	background:#ffee11;
+	font-family: giddyup std, cooper std black, chaparral pro;
+	font-size: 1.3em;
+	color: #0000bb; 
+	padding: 1%;
+	margin: 1% 13% .5% 13%;
+	padding: 2%;
+	text-align:center;
+	}
+
+.headingcontent
+	{
+	font-family: myriad pro cond, minion pro, giddyup std, cooper std black, chaparral pro, castellar, britannic bold;
+	color: #0000bb;
+	padding: 0% 2%;
+	}
+
+.content
+	{
+	background: #ffffff;
+	font-family: myriad pro cond, letter gothic std, leelawadee, garamond, century, century gothic;
+	font-size: 1em;
+	color:#333333;
+	margin: .5% 13% 1% 13%;
+	padding: 2%;
+	overflow:auto;
+	}
+
+.border
+	{ 
+	margin: 2% 2% 2% 2%;
+	border: 2px solid white;
+	padding: 2% 2% 2% 2%;
+	overflow:auto;
+	}
+
+.floatleft
+	{
+	width: 80%;
+	padding:2%;
+	float:left;
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+.footer
+	{
+	background: #ffee11;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #0000bb;
+	margin: 1% 13% 1% 13%;
+	padding: 2%;
+	text-align: center;
+	}
+
+
+.errorblank
+	{
+	font-family: myriad pro cond, minion pro, cooper std black, chaparral pro, castellar, britannic bold;
+	background: #ffffff;
+	color: #ff0000;
+	}
+
+
+.errortext
+	{
+	font-family: myriad pro cond, minion pro, cooper std black, chaparral pro, castellar, britannic bold;
+	background: #ffffff;
+	color: #ff0000;
+	}
+
+.tips
+	{
+	color: #000000;
+	}
+
+.back2CShome
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #00BB00;
+	margin: .5% 13% .5% 13%;
+	padding: .5% 1%;
+	}
+
+a:link
+	{ 
+	color: #0000bb;
+	}
+
+a:visited
+	{ 
+	color:#0000bb;
+	}
+
+a:hover
+	{
+	background:#FFFFFF;
+	color:#009900;
+	}

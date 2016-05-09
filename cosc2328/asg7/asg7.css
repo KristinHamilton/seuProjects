@@ -1,0 +1,150 @@
+
+/* Generic Selectors */
+
+body
+	{
+
+	margin:  0 1%;
+
+	font-family: corbel, lucida console regular, sans serif;
+
+	font-size: 1em;  /* default size */
+
+	color: #000033;  /* text color */
+
+	background: #333300; /* background color */
+
+	}
+
+.heading
+	{
+	background:#000033;
+	font-family: letter gothic std, chaparral pro;
+	font-size: 1.3em;
+	color: #ffffcc; 
+	padding: 1%;
+	margin: 1% 2% .5% 2%;
+	padding: 2%;
+	text-align:center;
+	}
+
+.headingcontent
+	{
+	font-family: letter gothic std, chaparral pro, myriad pro cond;
+	font-size: 1.2em;
+	color: #000033;
+	}
+
+.statement
+	{
+	font-family: letter gothic std, monospace;
+	font-size: 1em;
+	color: #003333;
+	}
+	
+.statementcontent
+	{
+	font-family: letter gothic std, monospace;
+	font-size: 1em;
+	color: #333333;
+	}
+
+.statementcontentalt
+	{
+	font-family: letter gothic std, monospace;
+	font-size: 1em;
+	color: #000033;
+	}
+
+.content
+	{
+	background: #ffffee;
+	font-family: letter gothic std, leelawadee, garamond, century, century gothic;
+	font-size: 1em;
+	color:#333333;
+	margin: .5% 2% 1% 2%;
+	padding: 2%;
+	overflow:auto;
+	}
+	
+.condensedcontent
+	{
+	font-family: tw cen mt condensed, myriad pro cond, myriad web pro condensed, gill sans mt condensed;
+	font-size: 1.1em;
+	color: #333333;
+	}	
+	
+.condensedcontentalt
+	{
+	font-family: tw cen mt condensed, myriad pro cond, myriad web pro condensed, gill sans mt condensed;
+	font-size: 1.1em;
+	color: #000033;
+	}
+	
+.border
+	{ 
+	margin: 2% 2% 2% 2%;
+	border: 1px solid black;
+	padding: 2% 2% 2% 2%;
+	overflow:auto;
+	}
+
+.floatleft
+	{
+	width: 80%;
+	padding:2%;
+	float:left;
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+.footer
+	{
+	background: #000033;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #ffffcc;
+	margin: 1% 2% 1% 2%;
+	padding: 2%;
+	text-align: center;
+	}
+
+.errortext
+	{
+	font-family: letter gothic std, myriad pro cond, minion pro, castellar, britannic bold;
+	color: #ff3333;
+	font-size: 1em;
+	}
+
+.tips
+	{
+	color: #000000;
+	}
+
+
+.back2CShome
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #003333;	
+	color: #333300;
+	margin: .5% 2% .5% 2%;
+	padding: .5% 1%;
+	}
+
+a:link
+	{ 
+	color: #ffffcc;
+	}
+
+a:visited
+	{ 
+	color:#ffffcc;
+	}
+
+a:hover
+	{
+	background:#ffffcc;
+	color:#000080;
+	}

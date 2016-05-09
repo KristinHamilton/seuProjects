@@ -1,0 +1,129 @@
+
+/* Generic Selectors */
+
+body
+	{
+	margin:  0 10%;
+	font-family: dejavu sans mono, corbel, lucida console regular, sans serif;
+	font-size: 1em;  /* default size */
+	color: #777777;  /* text color */
+	background: #33CC00; /* background color */
+	}
+
+.heading
+	{
+	background:#0066FF;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro;
+	font-size: 1.3em;
+	color: #FFFFEE; 
+	padding: 1%;
+	margin: 1% 10% .5% 10%;
+	padding: 2%;
+	text-align:center;
+	}
+
+.headingcontent
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	font-size: 1.2em;
+	color: #FF0066;
+	}
+
+.statement
+	{
+	font-family: dejavu sans mono, letter gothic std, monospace;
+	font-size: 1em;
+	color: #0033CC;
+	}
+	
+.statementcontent
+	{
+	font-family: dejavu sans mono, letter gothic std, monospace;
+	font-size: 1em;
+	color: #333333;
+	}
+
+.statementcontentalt
+	{
+	font-family: dejavu sans mono, letter gothic std, monospace;
+	font-size: 1em;
+	color: #000033;
+	}
+
+.content
+	{
+	background: #FFFFEE;
+	font-family: dejavu sans mono, letter gothic std, century, century gothic;
+	font-size: 1em;
+	color: #555555;
+	margin: .5% 10% 1% 10%;
+	padding: 2%;
+	overflow:auto;
+	}
+	
+.border
+	{ 
+	margin: 2% 2% 2% 2%;
+	border: 1px solid black;
+	padding: 2% 2% 2% 2%;
+	overflow:auto;
+	}
+
+.floatleft
+	{
+	width: 80%;
+	padding:2%;
+	float:left;
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+.footer
+	{
+	background: #0066FF;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #FFFFEE;
+	margin: 1% 10% 1% 10%;
+	padding: 2% 1%;
+	text-align: center;
+	}
+
+.errortext
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #FF6600;
+	font-size: 1em;
+	}
+
+.tips
+	{
+	color: #000000;
+	}
+
+
+.back2CShome
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #FF6600;
+	margin: .5% 10% .5% 10%;
+	padding: .5% 1%;
+	}
+
+a:link
+	{ 
+	color: #FFFFEE;
+	}
+
+a:visited
+	{ 
+	color:#FFFFEE;
+	}
+
+a:hover
+	{
+	background:#FFFFEE;
+	color: #0033CC;
+	}
