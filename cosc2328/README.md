@@ -1,6 +1,6 @@
 cosc2328 Web Programming.<br />
 Class projects from the Fall 2013 semester.<br />
-My cosc2328 home page (inactive link-SEU took down our old web server!)<br />
+<a href="http://kristin.create.stedwards.edu/cosc2328/index.php">My cosc2328 home page</a><br />
 
 <ul>
 <li><strong><a href = 'https://github.com/KristinHamilton/seuProjects/tree/master/cosc2328/asg5'>
