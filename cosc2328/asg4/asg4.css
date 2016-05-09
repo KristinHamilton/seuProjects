@@ -1,0 +1,109 @@
+/* [asg4css.css] */
+/* css for asg4.php */
+
+/* Kristin Hamilton */
+/* 16-Sep-2013 */
+/* cosc2328 */
+
+/* Generic Selectors */
+
+body
+	{
+	margin:  0 5%;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	font-size: 1em;  /* default size */
+	color: #000055;  /* text color */
+	background: #000044; /* background color */
+	}
+
+.heading
+	{
+	background:#ff9922;
+	color: #FFFFFF; 
+	padding: 1%;
+	margin: 1% 13% .5% 13%;
+	padding: 2%;
+	text-align:center;
+	font-size: 1.3em;
+	}
+
+.headingcontent
+	{
+	color: #000077;
+	}
+
+.content
+	{
+	background: #ffffff;
+	color:#555555;
+	margin: .5% 13% 1% 13%;
+	padding: 2%;
+	overflow:auto;
+	}
+
+.border
+	{ 
+	margin: 2% 2% 2% 2%;
+	border: 2px solid white;
+	padding: 2% 2% 2% 2%;
+	overflow:auto;
+	}
+
+.floatleft
+	{
+	width: 40%;
+	padding:2%;
+	float:left;
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+.footer
+	{
+	background: #ff9922;
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #FFFFFF;
+	margin: 1% 13% 1% 13%;
+	padding: 2%;
+	text-align: center;
+	}
+
+.errortext
+	{
+	font-family: Arial;
+	background: #ffff11;
+	color: #000077;
+	}
+
+.blogentries
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	color: #333333;
+	}
+
+.back2CShome
+	{
+	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
+	background: #00AAFF;
+	margin: .5% 13% .5% 13%;
+	padding: .5% 1%;
+	}
+
+a:link
+	{ 
+	color: #FFFFFF;
+	}
+
+a:visited
+	{ 
+	color:#FFFFFF;
+	}
+
+a:hover
+	{
+	background:#FFFFFF;
+	color:#000055;
+	}
