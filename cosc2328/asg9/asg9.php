@@ -22,7 +22,7 @@
 require "asg8funx.php";
 #require for header and footer
 
-printDocHeadingJS("asg9css.css", "Donuts-R-Us", "asg9js.js");
+printDocHeadingJS("asg9.css", "Donuts-R-Us", "asg9.js");
 #prints document header with text/javascript included in meta tag
 
 print "<body>\n";

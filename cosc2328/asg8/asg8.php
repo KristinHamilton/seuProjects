@@ -47,7 +47,7 @@ require "asg8funx.php";
      * printDocFooter
      */
 
-printDocHeadingJS("asg8css.css", "Image Database with Login", "asg8js.js");
+printDocHeadingJS("asg8.css", "Image Database with Login", "asg8.js");
 #prints document heading
 
 print
