@@ -9,37 +9,32 @@ header('Content-Type: image/jpeg');
  * prints the image data, allowing the image to be seen
  * having this script separately allows header() to be sent once per image
  * 
- * ***the lack of a closing php tag "?>" is intentional***
- * 
  * Kristin Hamilton
  * cosc2328
  * 12-Nov-2013
  */
-
-require "../db/mydb.php";
-//require "../db/mydbTest.php";
+require_once "../db/mydb.php";
 
 $id = $_GET['id'];
-$view = $_GET['view'];//full(1) or thumb(0)
+$view = $_GET['view'];  # full(1) or thumb(0)
 
 if($view == 0)
 {
 	$imageView = "thumbImg";
-	
-}//end of IF($view == 0)
-
-else //if($view == 1)
+}
+else
 {
-	$imageView = "fullImg";
+	$imageView = "fullImg";	
+}
 	
-}//end of ELSE
-	
-$db = adodbConnect();	
-$viewQuery = "SELECT ". $imageView ." FROM image WHERE imgID=". $id;
-$viewResult = $db->EXECUTE($viewQuery) or die("Error selecting an image version");
+$db = dbConnect();	
+$query = "SELECT $imageView FROM image WHERE imgID = $id";
+$result = mysqli_query($db, $query) or die("Error selecting an image version");
 
-while($viewRow = $viewResult->FetchRow())
+while($row = mysqli_fetch_assoc($result))
 {
-	$image = base64_decode($viewRow[$imageView]);
-	print $image;
-}?>
+	$image = base64_decode($row[$imageView]);
+	echo $image;
+}
+mysqli_close($db);
+?>
