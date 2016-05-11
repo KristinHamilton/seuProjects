@@ -1,129 +1,146 @@
-
-/* Generic Selectors */
-
-body
-	{
-	margin:  0 10%;
+body {
+	margin: 0 10%;
 	font-family: dejavu sans mono, corbel, lucida console regular, sans serif;
-	font-size: 1em;  /* default size */
-	color: #777777;  /* text color */
+	font-size: 1em; /* default size */
+	color: #777777; /* text color */
 	background: #33CC00; /* background color */
-	}
+}
 
-.heading
-	{
-	background:#0066FF;
+.heading {
+	background: #0066FF;
 	font-family: dejavu sans mono, letter gothic std, chaparral pro;
 	font-size: 1.3em;
-	color: #FFFFEE; 
+	color: #FFFFEE;
 	padding: 1%;
 	margin: 1% 10% .5% 10%;
 	padding: 2%;
-	text-align:center;
-	}
+	text-align: center;
+}
 
-.headingcontent
-	{
+.headingcontent {
 	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
 	font-size: 1.2em;
 	color: #FF0066;
-	}
+}
 
-.statement
-	{
+.statement {
 	font-family: dejavu sans mono, letter gothic std, monospace;
 	font-size: 1em;
 	color: #0033CC;
-	}
-	
-.statementcontent
-	{
+}
+
+.statementcontent {
 	font-family: dejavu sans mono, letter gothic std, monospace;
 	font-size: 1em;
 	color: #333333;
-	}
+}
 
-.statementcontentalt
-	{
+.statementcontentalt {
 	font-family: dejavu sans mono, letter gothic std, monospace;
 	font-size: 1em;
 	color: #000033;
-	}
+}
 
-.content
-	{
+.content {
 	background: #FFFFEE;
 	font-family: dejavu sans mono, letter gothic std, century, century gothic;
 	font-size: 1em;
 	color: #555555;
 	margin: .5% 10% 1% 10%;
 	padding: 2%;
-	overflow:auto;
-	}
-	
-.border
-	{ 
+	overflow: auto;
+}
+
+.border {
 	margin: 2% 2% 2% 2%;
 	border: 1px solid black;
 	padding: 2% 2% 2% 2%;
-	overflow:auto;
-	}
+	overflow: auto;
+}
 
-.floatleft
-	{
+.floatleft {
 	width: 80%;
-	padding:2%;
-	float:left;
-	}
+	padding: 2%;
+	float: left;
+}
 
-.clear
-	{
-	clear:both;
-	}
+.clear {
+	clear: both;
+}
 
-.footer
-	{
+.footer {
 	background: #0066FF;
 	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
 	color: #FFFFEE;
 	margin: 1% 10% 1% 10%;
 	padding: 2% 1%;
 	text-align: center;
-	}
+}
 
-.errortext
-	{
+.errortext {
 	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
 	color: #FF6600;
 	font-size: 1em;
-	}
+}
 
-.tips
-	{
+.tips {
 	color: #000000;
-	}
+}
 
-
-.back2CShome
-	{
+.back2CShome {
 	font-family: dejavu sans mono, letter gothic std, chaparral pro, myriad pro cond;
 	background: #FF6600;
 	margin: .5% 10% .5% 10%;
 	padding: .5% 1%;
-	}
+}
 
-a:link
-	{ 
+a:link {
 	color: #FFFFEE;
-	}
+}
 
-a:visited
-	{ 
-	color:#FFFFEE;
-	}
+a:visited {
+	color: #FFFFEE;
+}
 
-a:hover
-	{
-	background:#FFFFEE;
+a:hover {
+	background: #FFFFEE;
 	color: #0033CC;
-	}
+}
+
+.errorDiv {
+	 width: 90%;
+	 margin: 1.5%;
+	 padding: 0 5% 0 5%;
+}
+
+.mainMsgDiv {
+	width: 90%;
+	margin: 1.5%;
+	padding: 1% 5% 1% 5%;
+}
+
+.bodyDiv {
+	width: 90%;
+	margin: 0 1.5%;
+	padding: 1% 5% 1% 5%;
+}
+
+.buttonDiv {
+	width: 25%;
+	float: left;
+}
+
+.buttonDiv1 {
+	margin: 1.5%;
+	padding:2% 2% 5% 5%;
+}
+
+.buttonDiv2 {
+	margin: 1.5% auto;
+	padding:2% 2% 5% 5%;
+}
+
+.buttonDiv3 {
+	margin: 1.5% 0 1.5% 1.5%;
+	padding:2% 0 5% 5%;
+}
