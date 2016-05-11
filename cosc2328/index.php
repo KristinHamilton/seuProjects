@@ -11,44 +11,60 @@ echo "
 	
 	<body>	
 		<div class='heading'>
-			<h2> Kristin Hamilton - COSC2328 Home Page </h2>
+			<h2> Kristin Hamilton - CS Home Page </h2>
 		</div>
 	
 		<!-- start content -->
 		<div class='content'>
+
 			<div class='floatleft'>
-	
 				<h3> Degree in progress </h3>
 				B.S. Computer Science (May 2017)
 			
-				<h4> _ is/are my favorite! </h4>
+				<h3> Favorite things: </h3>
 				<ul>
 					<li> Exploring in the woods </li>
 					<li> Playing with the dogs </li>
 					<li> Texas Master Naturalist activities</li>
 					<li> Snowskiing </li>
 					<li> Programming </li>
-					<li> Learning new things </li>
 					<li> Cooking </li>
 					<li> Spending time with family </li>
 					<li> Field guides </li>
 					<li> Bright indoor lighting </li>
 					<li> Texas BBQ and Tex-Mex </li>
 				</ul>
-			
-				<h4> COSC 2328 Assignments (Fall 2013)</h4>
+			</div>		
+		
+			<div class='border'>	
+				<br />
+				<em>Bowie, my dog-nephew, and Charlie (R.I.P.)</em>
+				<br />
+				<img src='./asg2/BowieAndCharlie.jpg' alt='Bowie and Charlie' />
+			</div>
+	
+			<div style='clear:both;'></div>
+		
+			<div class='floatleft' style='width:auto;'>
+		
+				<h3> COSC 2328 Assignments (Fall 2013)</h3>
 				<ul>
-					<li>Assignment #2 (current page) CS home page using PHP</li>
-					<li><a href='./asg3.php'>Assignment #3</a> Gas Milage Calculator</li>
-					<li><a href='./asg4.php'>Assignment #4</a> 'Blog' with Commenting System</li>
-					<li><a href='./asg5.php'>Assignment #5</a> Mad Libs</li>
-					<li><a href='./asg6.php'>Assignment #6</a> PHP GD Graphics Library</li>
-					<li><a href='./asg7.php'>Assignment #7</a> Image Database</li>
-					<li><a href='./asg8.php'>Assignment #8</a> Image Database with Login</li>
-					<li><a href='./asg9.php'>Assignment #9</a> Donuts-R-Us Online Ordering</li>
+					<li>Assignment #2 (current page) CS home page using PHP</li><br />
+					<li><a href='./asg3/asg3.php'>Assignment #3</a> Gas Milage Calculator</li><br />
+					<li><a href='./asg4/asg4.php'>Assignment #4</a> 'Blog' with Commenting System</li><br />
+					<li><a href='./asg5/asg5.php'>Assignment #5</a> Mad Libs</li>
+						<ul><li><em><b>Topics</b>: Regex matching, flat file i/o</em></li></ul><br />
+					<li><a href='./asg6/asg6.php'>Assignment #6</a> PHP GD Graphics Library</li>
+						<ul><li><em><b>Topics</b>: Drawing graphics, creating thumbnails</em></li></ul><br />
+					<li><a href='./asg7/asg7.php'>Assignment #7</a> Image Database</li>
+						<ul><li><em><b>Topics</b>: Uploading images, SQL</em></li></ul><br />
+					<li><a href='./asg8/asg8.php'>Assignment #8</a> Image Database with Login</li>
+						<ul><li><em><b>Topics</b>: Login using sessions, AJAX, JavaScript, SQL</em></li></ul><br />
+					<li><a href='./asg9/asg9.php'>Assignment #9</a> Donuts-R-Us Online Ordering</li>
+						<ul><li><em><b>Topics</b>: JavaScript, AJAX, SQL</em></li></ul><br />
 				</ul>
 			
-				<h6> Some helpful links: </h6>
+				<h3> Some helpful links: </h3>
 			    <a href='http://www.ascii.cl/htmlcodes.htm'> ascii HTML codes - characters and symbols </a>
 		  	    <br /><br />
 		  	    <a href='http://validator.w3.org'> HTML validator </a>
@@ -58,19 +74,10 @@ echo "
 		  	    <a href='http://www.ficml.org/jemimap/style/color/wheel.html?aaa=%2300ff00'> color wheel </a>
 		  	    <br /><br />
 		  	    <a href='http://www.ajaxgoals.com/'> ajax resource </a>
-		  	    <br /><br />
+		  	    <br /><br />		
 	
-			</div>		
+			</div>
 		
-			<div class='floatleft'>
-				<div class='border'>	
-					<br />
-					<em>Bowie, my dog-nephew, and Charlie (R.I.P.)</em>
-					<br />
-					<img src='BowieAndCharlie.jpg' alt='Bowie and Charlie' />
-				</div>
-	 		</div>
-	
 		</div>
 		<!--  end content  -->
 	
