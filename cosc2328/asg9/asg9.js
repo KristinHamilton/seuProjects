@@ -1,12 +1,10 @@
 /* *
- *[asg9js.js]
+ *[asg9.js]
  * javascript functions to accompany asg9.php
  * Kristin Hamilton
  * cosc2328
  * created Sat, 07-Dec-2013
  */
-
-/* declare global variables thePhoneNumber and theCustomerName */
 var thePhoneNumber = "1234567890";
 var theCustomerName = "KristinBHamilton";
 
@@ -24,24 +22,23 @@ function showButton(buttonName, buttonDivNumber)
 {
     var functionName = "";
 	
-    if(buttonName == "Submit")
+    if(buttonName == "Submit"){
         functionName = "submitPhoneForm();";
-	
-    else if(buttonName == "Start over")
+	}
+    else if(buttonName == "Start over"){
         functionName = 'showPhoneForm("clear errorDiv");';
-	
-    else if(buttonName == "Clear order")
+    }
+    else if(buttonName == "Clear order"){
         functionName = "clearOrderForm();";
-	
-    else if(buttonName == "Submit order")
+    }
+    else if(buttonName == "Submit order"){
         functionName = "submitOrderForm();";
-    	
+    }
+    
     var buttonOut = "<button type='button' onclick='"+functionName+"'>"+buttonName+"</button>\n";
     var divName = "buttonDiv"+buttonDivNumber;
-    document.getElementById(divName).innerHTML = buttonOut;
-    
-}//end of showButton()
-
+    document.getElementById(divName).innerHTML = buttonOut;   
+}
 
 /* *
  * [BELOW]  clearDiv(divName)
@@ -51,9 +48,7 @@ function showButton(buttonName, buttonDivNumber)
 function clearDiv(divName)
 {
     document.getElementById(divName).innerHTML = "";
-
-}//end of clearBodyDiv()
-
+}
 
 /* *
  * [BELOW]  createRequest()
@@ -85,10 +80,8 @@ function createRequest()
         }        
     }
     
-    return ajaxRequest;
-    
-}//end of createRequest()
-
+    return ajaxRequest;   
+}
 
 /* *
  * [BELOW]  showPhoneForm(clearPreviousErrorMsg)
@@ -118,14 +111,11 @@ function showPhoneForm(clearPreviousErrorMsg)
     document.getElementById("mainMsgDiv").innerHTML = mainMsgOut;
     document.getElementById("bodyDiv").innerHTML = bodyOut;
     showButton("Submit", "3");
-    
     document.getElementById("customerName").value = "";
     document.getElementById("phoneNumber").value = "";
     clearDiv("buttonDiv1");
     clearDiv("buttonDiv2");
-
-}//end of showPhoneForm()
-
+}
 
 /* *
  * [BELOW]  submitPhoneForm()
@@ -151,8 +141,7 @@ function submitPhoneForm()
     phoneResult = checkPhone(phoneNumber);
     nameResult = customerName;
     
-    if(phoneResult && nameResult)
-    {
+    if(phoneResult && nameResult){
         var request = createRequest();
         thePhoneNumber = phoneNumber;
         theCustomerName = customerName;
@@ -162,22 +151,15 @@ function submitPhoneForm()
         request.open("GET", url, true);
         request.onreadystatechange = function() {
             handleSubmitPhoneForm(request);};
-        request.send(null);
-    	    	
-    }//end of IF(phoneResult && nameResult)
-    
-    else  //if phoneNumber and customerName don't both check out as valid
-    {
+        request.send(null);	    	
+    } 
+    else{
         var error = "<h3>Please enter your name and your 10-digit phone number, "+
         "excluding any hyphens, parenthesis, or other non-numeric characters</h3>\n";
-    	
         document.getElementById("errorDiv").innerHTML = error;
-        showPhoneForm("show error msg");
-    	
-    }//end of ELSE
-
-}//end of submitPhoneForm()
-
+        showPhoneForm("show error msg");	
+    }
+}
 
 /* *
  * [BELOW]  checkPhone(thePhone)
@@ -188,30 +170,21 @@ function submitPhoneForm()
 function checkPhone(thePhone)
 {
     var phoneCheckResult = false;
-    
     if(thePhone.length != 10) {
-        return phoneCheckResult;  //= false
+        return phoneCheckResult;
     }
     
     phoneCheckResult = true;
-    
-    for(i = 0; i < thePhone.length; i++)
-    {
+    for(var i = 0; i < thePhone.length; i++){
         var phoneChar = thePhone.charAt(i);
-    	
-        if(phoneChar < '0' || phoneChar > '9')
-        {
+        if(phoneChar < '0' || phoneChar > '9'){
             phoneCheckResult = false;
             break;
-    		
-        }//end of IF
-    	
-    }//end of FOR loop
+        }
+    }
     
     return phoneCheckResult;
-
-}//end of checkPhone()
-
+}
 
 /* *
  * [BELOW]  checkName(theName)
@@ -223,27 +196,20 @@ function checkPhone(thePhone)
 function checkName(theName)
 {
     var nameCheckResult = false;
-    
-    if(theName.length < 1 || theName.length > 30)
-    return nameCheckResult;
+    if(theName.length < 1 || theName.length > 30){
+    	return nameCheckResult;
+    }
     
     nameCheckResult = true;
-    /*
-    for(i = 0; i < theName.length; i++)
-    {
-        if(theName.charAt(i) >= '0' || theName.charAt(i) <= '9')
-        {
+    /*for(var i = 0; i < theName.length; i++){
+        if(theName.charAt(i) >= '0' || theName.charAt(i) <= '9'){
             nameCheckResult = false;
             break;
-    		
-    }//end of IF
-    	
-    }//end of FOR loop
-	*/
-    return nameCheckResult;
+    	}
+    }*/
     
-}//end of checkName()
-
+    return nameCheckResult;
+}
 
 /* *
  * [BELOW]  handleSubmitPhoneForm(request)
@@ -256,22 +222,16 @@ function checkName(theName)
  */
 function handleSubmitPhoneForm(request)
 {
-    if(request.readyState == 4)
-    {
+    if(request.readyState == 4){
         var mainMsgOut = "<h2>Good morning, "+theCustomerName+"!\n";
-        
         document.getElementById("mainMsgDiv").innerHTML= mainMsgOut;
         document.getElementById("bodyDiv").innerHTML= request.responseText;	    
         showButton("Start over", "1");
         showButton("Clear order", "2");
         showButton("Submit order", "3");
-
         clearDiv("errorDiv");
-        
-    }//end of IF
-
-}//end of handleSubmitPhoneForm()
-
+    }
+}
 
 /* *
  * [BELOW]  submitOrderForm()
@@ -301,8 +261,7 @@ function submitOrderForm()
     var glazedResult = checkOrderForm(numGlazed);
     var chocolateResult = checkOrderForm(numChocolate);
 	
-    if(drinkResult && jellyResult && glazedResult && chocolateResult)
-    {
+    if(drinkResult && jellyResult && glazedResult && chocolateResult){
         var request = createRequest();
         var url = "asg9Phone.php?phoneNumber="+thePhoneNumber+"&customerName="+theCustomerName+
         "&drinkID="+drinkID+"&numJelly="+numJelly+"&numGlazed="+numGlazed+
@@ -311,23 +270,15 @@ function submitOrderForm()
         request.open("GET", url, true);
         request.onreadystatechange = function() {
             handleSubmitOrderForm(request);};
-			
-        request.send(null);
-		
-    }//end of IF(drinkResult && jellyResult && glazedResult && chocolateResult)
-  
-    else  //if all the vars don't check out as valid
-    {
+        request.send(null);	
+    }
+    else{
         var error = "<h3>Please enter a quantity (from 0 to 99, inclusive) "+
             "in each of the blanks</h3>\n";
         document.getElementById("errorDiv").innerHTML = error;
-		
-        submitPhoneForm();  //questionable method call here!
-		
-    }//end of ELSE
-		
-}//end of submitOrderForm()
-
+        submitPhoneForm();  //questionable method call here!	
+    }		
+}
 
 /* *
  * [BELOW]  checkOrderForm(donutQty)
@@ -339,30 +290,21 @@ function submitOrderForm()
 function checkOrderForm(donutQty)
 {
     var checkResult = false;
-    
     if(donutQty.length < 1 || donutQty.length > 2) {
-        return checkResult;  //= false
+        return checkResult;
     }
     
     checkResult = true;
-    
-    for(i = 0; i < donutQty.length; i++) 
-    {
+    for(var i = 0; i < donutQty.length; i++){
         var charDigit = donutQty.charAt(i);
-    	
-        if(charDigit < '0' || charDigit > '9')
-        {
+        if(charDigit < '0' || charDigit > '9'){
             checkResult = false;
             break;
-    		
-        }//end of IF
-    	
-    }//end of FOR loop
+        }
+    }
     
     return checkResult;
-
-}//end of checkOrderForm()
-
+}
 
 /* *
  * [BELOW]  clearOrderForm()
@@ -375,11 +317,8 @@ function clearOrderForm()
     document.getElementById("numJelly").value = "";
     document.getElementById("numGlazed").value = "";
     document.getElementById("numChocolate").value = "";
-    
 	clearDiv("errorDiv");
-
-}//end of clearOrderForm()
-
+}
 
 /* *
  * [BELOW]  handleSubmitOrderForm(request)
@@ -392,13 +331,11 @@ function clearOrderForm()
 function handleSubmitOrderForm(request)
 {
     var mainMsgOut = "<h2>Order Confirmation</h2>\n";
-	
     document.getElementById("mainMsgDiv").innerHTML = mainMsgOut;
     document.getElementById("bodyDiv").innerHTML = request.responseText;
     showButton("Start over", "3");
     
     clearDiv("errorDiv");
     clearDiv("buttonDiv1");
-    clearDiv("buttonDiv2");
-    
-}//end of handleSubmitOrderForm()
+    clearDiv("buttonDiv2");   
+}
